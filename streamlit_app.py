@@ -12,9 +12,6 @@ st.write(
 #    'What is your favourite fruit?',
 #    ('Banana', 'Strawberries', 'Peaches'))
 
-cnx = st.connexion("snowflake")
-session = cnx.session()
-
 #st.write('Your favourite fruit is:', option)
 
 name_on_order = st.text_input('Name on Smoothie:')
